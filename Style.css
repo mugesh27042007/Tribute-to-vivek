@@ -1,0 +1,129 @@
+*{margin:0 ;
+padding: 0;
+box-sizing: border-box;}
+.container{
+    background-color: #e5e5ef;
+    min-height: 100vh;
+    border: 10px solid black;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+
+.top_section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: blue;
+    text-transform: uppercase;
+}
+.top_section  h4{
+    text-align: end;
+    font-size: 30px;
+
+}
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end ;
+    flex-direction: column ;
+}
+.image_container{
+    height: 200px;
+    width: 200px;
+}
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image_container img {
+    height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about_section{
+    margin: 50px;
+
+}
+.about_section h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about_section p{
+    font-size: 16px;
+    letter-spacing:  2px; 
+    line-height:2;
+}
+.biography{
+    margin: 50px;
+}
+.biography h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+
+}
+.biography h5{
+     font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+.biography p{
+     font-size: 16px;
+    letter-spacing:  2px; 
+    line-height:2;
+}
+.awards{
+      margin: 20px;
+
+
+}
+.awards h2{
+     font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.awards li{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+footer{
+    margin: 50px;
+}
+footer p{
+    margin: 50px auto;
+  text-align: right;
+  padding: 10px 20px;
+  border-top: 1px solid #ccc;
+  color: #888;
+}
+blockquote {
+  background-color: #e0f7fa;
+  padding: 15px;
+  border-left: 5px solid #00796b;
+  font-style: italic;
+  border-radius: 5px;
+}
+blockquote:hover {
+  background-color: #d0f2ff;
+  transition: 0.3s;
+}
